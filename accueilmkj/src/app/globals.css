@@ -1,0 +1,13 @@
+body{
+  background-color: #2A4466;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.cards{
+  padding: 0%;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  display: grid;
+  margin: -40px 50px 100px 40px;
+  gap: -25%;
+}

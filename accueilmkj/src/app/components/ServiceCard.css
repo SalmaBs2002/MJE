@@ -1,0 +1,71 @@
+.cardStyle {
+  background-color: #2A4466;
+  padding :  80px 20px 30px 10px;
+  border-radius: 10px;
+  box-Shadow: 0 0 10px rgba(0, 0, 0, 1);
+  margin: 40px 50px 100px;
+  transition: margin 0.3s ease;
+  display: inline-flex;
+  width :350px;
+  height: 25vh;
+  color :white;
+  position: relative;
+  top:-110px;
+  z-Index: 500;
+  align-items: center; 
+  flex-Direction: column;
+  justify-content: space-around;
+  opacity: 90%;
+  transition: margin 0.8s ease, transform 0.8s ease; 
+}
+.cardStyle:hover {
+  background-color: white;
+  color: #2A4466;
+  transform: scale(1.1);
+  box-shadow: 1px 1px 20px black;
+}
+.circle img {
+  justify-content: center;
+margin-left: 25px;
+margin-top:25px ;
+
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: -70px;
+  transform: translateX(-50%);
+  z-index: 900;
+  left: 50%;
+  background-color: #2A4466;
+  box-Shadow: 0 0 5px rgba(0, 0, 0, 1);
+  opacity: 80%;
+  transition: background-color 0.3s ease;
+}
+.circle:hover {
+ box-shadow: 9px 9px 10px grey;
+}
+h3{
+  margin-top: -10px;
+  margin-bottom: 2px;  
+  font-size: 18px;
+}
+h4{
+  font-weight:bold;
+  margin-top: -15px;
+  margin-bottom: 1px;
+}
+.cardStyle p {
+  margin-top: 2px;
+  font-weight: light;
+  text-align: center;
+}
+.circleContainer{
+  display: flex;
+  justify-content: center;
+  
+}
+

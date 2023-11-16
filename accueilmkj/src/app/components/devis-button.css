@@ -1,0 +1,83 @@
+button.Devis_Button {
+  position: absolute;
+  overflow: hidden;
+  cursor: pointer;
+  background: #2A4466;
+  border: none;
+  left: 80%;
+  top: 40%;
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  transform: translateX(-50%);
+  transition: width 0.7s, height 0.7s;
+  box-shadow: 1px 3px 10px black;
+  z-index: 1;
+}
+
+.section1 .sous-title {
+  top: 50%;
+
+  
+}
+
+button.Devis_Button  a {
+  position: relative;
+  left: 0;
+  transition: all .7s ease-Out;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#arrow {
+  width: 100%;
+  height: 100%;
+  background: #2A4466;
+  left: -200px;
+  position: absolute;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .7s ease-Out;
+  bottom: 0;
+}
+
+button.Devis_Button img {
+  width: 20px;
+  height: auto;
+  filter: invert(1) brightness(150%);
+}
+
+button.Devis_Button:hover #arrow {
+  left: 0;
+  
+}
+
+button.Devis_Button:hover a {
+  left: 250px;
+}
+
+
+@media screen and (max-width: 400px) {
+  button.Devis_Button {
+    width: 45%; 
+    left: 45%;
+    transform: translateX(-80%) ; 
+
+  }
+}
+
+
+button.Devis_Button:focus {
+  transition: width 0.7s, height 0.7s;
+}
+button.Devis_Button:focus #arrow {
+  left: 0;
+}
+
+button.Devis_Button:focus #arrow img {
+  display: block;
+  top: auto;
+} 
